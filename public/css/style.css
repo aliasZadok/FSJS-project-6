@@ -1,0 +1,155 @@
+body {
+  background-color:#F1F0CC;
+}
+
+h1,h2,h3,h4,h5,p{
+  font-family: 'Merriweather', serif;
+}
+
+  h5{
+    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    letter-spacing: 2.5px;
+    -webkit-text-transform: uppercase;
+    text-transform: uppercase;
+  }
+
+  h6{
+    letter-spacing: 2.5px;
+    -webkit-text-transform: uppercase;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+
+  p{
+    font-size: 15px;
+    color: #D5BF86;
+  }
+
+.round{
+  border-radius: 5px;
+}
+
+.text-light{
+  color: #D5BF86;
+}
+
+.button{
+  background-color: #A71D31;
+}
+
+.button:hover{
+  background-color: #3F0D12
+}
+
+a{
+  color: #A71D31;
+}
+
+a:hover{
+  color: #3F0D12;
+}
+
+.image{
+  display: inline-block;
+  max-width: 100%;
+  margin-bottom: 1rem;
+  border: solid 4px #8AA399;
+  border-radius: 0;
+  box-shadow: 5px 5px 5px 1px rgba(10, 10, 10, 0.2);
+  line-height: 0;
+}
+
+.portfolio-me{
+  padding: 20px;
+  background: #675746;
+  color: #fff;
+  box-shadow: none !important;
+}
+
+  .portfolio-me p{
+    font-size: 14px;
+    color: #F1F0CC;
+  }
+
+  .portfolio-me a{
+    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    color: #891829;
+    font-size: 13px;
+    letter-spacing: 2.5px;
+    -webkit-text-transform: uppercase;
+    text-transform: uppercase;
+  }
+
+  .portfolio-me a:hover{
+    color: #3F0D12;
+  }
+
+.portfolio-breadcrumb{
+  margin: 0;
+  padding: 20px;
+  border-bottom: 1px solid #8AA399;
+}
+
+ .portfolio-breadcrumb a{
+   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+   font-weight: 600;
+   font-size: 13px;
+   letter-spacing: 2.5px;
+   -webkit-text-transform: uppercase;
+   text-transform: uppercase;
+ }
+
+.portfolio-intro{
+  margin: 0;
+  padding: 40px 50px 30px;
+  color: #675746;
+}
+
+.portfolio-intro p{
+  border-bottom: 1px solid #8AA399;
+  padding-bottom: 40px;
+}
+
+.portfolio-index{
+  margin: 0;
+  padding: 10px 50px;
+}
+
+  .portfolio-index .thumbnail{
+    margin-bottom: 5px;
+    box-shadow: 5px 5px 5px 1px rgba(10, 10, 10, 0.2);
+  }
+
+  .portfolio-index a{
+    color: #A71D31;
+  }
+
+  .portfolio-index .cell{
+    margin-bottom: 15px;
+  }
+
+    .portfolio-index .cell h5{
+      letter-spacing: 1px;
+    }
+
+.portfolio-meta{
+  padding-left: 20px;
+}
+
+  .portfolio-meta .button{
+    margin-bottom: 5px;
+  }
+
+.portfolio-project p{
+  border: none;
+}
+
+.portfolio-project li{
+  font-size: 13px;
+  color: #675746;
+}
+
+.portfolio-bio{
+    line-height: 25px;
+}

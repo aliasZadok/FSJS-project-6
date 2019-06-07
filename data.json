@@ -1,0 +1,64 @@
+{
+  "projects": [
+    {
+      "id": 0,
+      "project_name": "Random Quote Generator",
+      "description": "An app that displays random famous quotes each time a button is clicked",
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "live_link": "https://aliaszadok.github.io/random_quote/",
+      "github_link": "https://github.com/aliasZadok/FSJS-project-1",
+      "image_urls": ["/static/images/random_quote_main_screenshot.jpg",
+                     "/static/images/random_quote_screenshot_1.jpg",
+                     "/static/images/random_quote_screenshot_2.jpg",
+                     "/static/images/random_quote_screenshot_3.jpg"]
+    },
+    {
+      "id": 1,
+      "project_name": "List pagination and Filtering",
+      "description": "A page that contains a list of 54 student names, photos and email addresses.",
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "live_link": "https://aliaszadok.github.io/list_pagination/",
+      "github_link": "https://github.com/aliasZadok/FSJS-project-2",
+      "image_urls": ["/static/images/list_pagination_main_screenshot.jpg",
+                     "/static/images/list_pagination_screenshot_1.jpg",
+                     "/static/images/list_pagination_screenshot_2.jpg",
+                     "/static/images/list_pagination_screenshot_3.jpg"]
+    },
+    {
+      "id": 2,
+      "project_name": "Interactive Form",
+      "description": "An interactive registration form for a fictional conference called \"FullStack Conf.\"",
+      "technologies": ["HTML", "CSS", "JavaScript", "JQuery"],
+      "live_link": "https://aliaszadok.github.io/form/",
+      "github_link": "https://github.com/aliasZadok/FSJS-project-3",
+      "image_urls": ["/static/images/form_main_screenshot.jpg",
+                     "/static/images/form_screenshot_1.jpg",
+                     "/static/images/form_screenshot_2.jpg",
+                     "/static/images/form_screenshot_3.jpg"]
+    },
+    {
+      "id": 3,
+      "project_name": "Phrase Hunter",
+      "description": "A browser-based, word guessing game: \"Phrase Hunter.\" Try to guess the phrase, by clicking letters on an onscreen keyboard.",
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "live_link": "https://aliaszadok.github.io/phrase_hunter/",
+      "github_link": "https://github.com/aliasZadok/FSJS-project-4",
+      "image_urls": ["/static/images/phrase_hunter_main_screenshot.jpg",
+                     "/static/images/phrase_hunter_screenshot_1.jpg",
+                     "/static/images/phrase_hunter_screenshot_2.jpg",
+                     "/static/images/phrase_hunter_screenshot_3.jpg"]
+    },
+    {
+      "id": 4,
+      "project_name": "Public API Requests",
+      "description": "An app for a fictional company called Awesome Startup, a distributed company with remote employees working all over the world. They need a smart way for employees to share contact information with each other.",
+      "technologies": ["HTML", "CSS", "JavaScript", "JQuery","JSON"],
+      "live_link": "https://aliaszadok.github.io/api_request/",
+      "github_link": "https://github.com/aliasZadok/FSJS-project-5",
+      "image_urls": ["/static/images/api_request_main_screenshot.jpg",
+                     "/static/images/api_request_screenshot_1.jpg",
+                     "/static/images/api_request_screenshot_2.jpg",
+                     "/static/images/api_request_screenshot_3.jpg"]
+    }
+  ]
+}

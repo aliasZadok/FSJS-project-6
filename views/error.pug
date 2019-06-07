@@ -1,0 +1,8 @@
+extends layout.pug
+
+block content
+  article.grid-container.portfolio-intro
+    h2= `${error.message} -- Status: ${error.status}` 
+  p.grid-container.portfolio-index= `${error.stack}`
+  nav.grid-container.portfolio-breadcrumb
+    a(href='/') ← Back
