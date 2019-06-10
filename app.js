@@ -16,21 +16,33 @@ app.get('/about', (req, res)=>{
 
 app.get('/project/:id', (req, res)=>{
   const {id} = req.params;
-  const {project_name,
-         description,
-         technologies,
-         live_link,
-         github_link,
-         image_urls} = projects[id];
 
-  const templateData = {project_name,
-                        description,
-                        technologies,
-                        live_link,
-                        github_link,
-                        image_urls};
+  if (id >= 0 && id <= projects.length) {
 
-  res.render('project', templateData);
+    const {project_name,
+           description,
+           technologies,
+           live_link,
+           github_link,
+           image_urls} = projects[id];
+
+    const templateData = {project_name,
+                          description,
+                          technologies,
+                          live_link,
+                          github_link,
+                          image_urls};
+
+    res.render('project', templateData);
+
+  } else {
+
+      const err = new Error('Project ' + id + ' does not exist');
+      err.status = 404;
+      throw err;
+
+  }
+
 });
 
 app.use((req, res, next) => {
