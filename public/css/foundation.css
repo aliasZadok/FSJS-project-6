@@ -444,7 +444,7 @@ body {
   margin: 0;
   padding: 0;
   background: #fefefe;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: 'Varela Round', Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
   line-height: 1.5;
   color: #0a0a0a;
@@ -2225,7 +2225,7 @@ h3, .h3,
 h4, .h4,
 h5, .h5,
 h6, .h6 {
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: 'Varela Round', Helvetica, Roboto, Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   color: inherit;
@@ -4984,26 +4984,34 @@ table.hover:not(.unstriped) tr:nth-of-type(even):hover {
   .tabs-panel.is-active {
     display: block; }
 
-.thumbnail {
+.profileThumbnail {
   display: inline-block;
   max-width: 100%;
   margin-bottom: 1rem;
-  border: solid 4px #8AA399;
+  border: solid 4px #99173C;
   border-radius: 0;
-  box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.2);
+  box-shadow: 0px 2px 3px 2px rgba(10, 10, 10, 0.2);
   line-height: 0; }
 
-a.thumbnail {
+.imgThumbnail {
+  display: inline-block;
+  max-width: 100%;
+  margin-bottom: 1rem;
+  border-radius: 0;
+  line-height: 0;
+}
+
+a.imgThumbnail {
   transition: box-shadow 200ms ease-out; }
-  a.thumbnail:hover, a.thumbnail:focus {
-    box-shadow: 0 0 6px 1px rgba(23, 121, 186, 0.5); }
-  a.thumbnail image {
-    box-shadow: none; }
+a.imgThumbnail:hover, a.imgThumbnail:focus {
+  box-shadow: 0 0 6px 1px rgba(23, 121, 186, 0.5); }
+a.imgThumbnail image {
+  box-shadow: none; }
 
 .title-bar {
   padding: 0.5rem;
-  background: #675746;
-  color: #fefefe;
+  background: #2E2633;
+  color: #F2E9E1;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: start;
