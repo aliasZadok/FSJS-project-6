@@ -1,13 +1,13 @@
 body {
-  background-color:#F1F0CC;
+  background-color: #473E4B;
 }
 
 h1,h2,h3,h4,h5,p{
-  font-family: 'Merriweather', serif;
+  font-family: 'Varela Round', sans-serif;
 }
 
   h5{
-    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Varela Round', Helvetica, Arial, sans-serif;
     letter-spacing: 2.5px;
     -webkit-text-transform: uppercase;
     text-transform: uppercase;
@@ -21,8 +21,8 @@ h1,h2,h3,h4,h5,p{
   }
 
   p{
-    font-size: 15px;
-    color: #D5BF86;
+    font-size: 21px;
+    color: #F2E9E1;
   }
 
 .round{
@@ -30,69 +30,73 @@ h1,h2,h3,h4,h5,p{
 }
 
 .text-light{
-  color: #D5BF86;
+  color: #F2E9E1;
+}
+
+.text-accent{
+  color: #99173C;
 }
 
 .button{
-  background-color: #A71D31;
+  background-color: #99173C;
 }
 
 .button:hover{
-  background-color: #3F0D12
+  background-color: #78122F
 }
 
 a{
-  color: #A71D31;
+  color: #99173C;
 }
 
 a:hover{
-  color: #3F0D12;
+  color: #78122F;
 }
 
 .image{
   display: inline-block;
   max-width: 100%;
   margin-bottom: 1rem;
-  border: solid 4px #8AA399;
+  border: solid 4px #99173C;
   border-radius: 0;
-  box-shadow: 5px 5px 5px 1px rgba(10, 10, 10, 0.2);
+  box-shadow: 0px 2px 3px 2px rgba(10, 10, 10, 0.2);
   line-height: 0;
 }
 
 .portfolio-me{
   padding: 20px;
-  background: #675746;
-  color: #fff;
+  background: #2E2633;
+  color: #F2E9E1;
   box-shadow: none !important;
 }
 
   .portfolio-me p{
     font-size: 14px;
-    color: #F1F0CC;
+    color: #F2E9E1;
   }
 
   .portfolio-me a{
-    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Varela Round', Helvetica, Arial, sans-serif;
     font-weight: 600;
-    color: #891829;
-    font-size: 13px;
+    color: #99173C;
+    font-size: 15px;
     letter-spacing: 2.5px;
     -webkit-text-transform: uppercase;
     text-transform: uppercase;
   }
 
   .portfolio-me a:hover{
-    color: #3F0D12;
+    color: #78122F;
   }
 
 .portfolio-breadcrumb{
   margin: 0;
   padding: 20px;
-  border-bottom: 1px solid #8AA399;
+  border-bottom: 1px solid #99173C;
 }
 
  .portfolio-breadcrumb a{
-   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+   font-family: 'Varela Round', Helvetica, Arial, sans-serif;
    font-weight: 600;
    font-size: 13px;
    letter-spacing: 2.5px;
@@ -103,12 +107,7 @@ a:hover{
 .portfolio-intro{
   margin: 0;
   padding: 40px 50px 30px;
-  color: #675746;
-}
-
-.portfolio-intro p{
-  border-bottom: 1px solid #8AA399;
-  padding-bottom: 40px;
+  color: #2E2633;
 }
 
 .portfolio-index{
@@ -116,13 +115,13 @@ a:hover{
   padding: 10px 50px;
 }
 
-  .portfolio-index .thumbnail{
+  .portfolio-index .imgThumbnail{
     margin-bottom: 5px;
-    box-shadow: 5px 5px 5px 1px rgba(10, 10, 10, 0.2);
+    box-shadow: 0px 2px 3px 2px rgba(10, 10, 10, 0.2);
   }
 
   .portfolio-index a{
-    color: #A71D31;
+    color: #F2E9E1;
   }
 
   .portfolio-index .cell{
@@ -147,9 +146,16 @@ a:hover{
 
 .portfolio-project li{
   font-size: 13px;
-  color: #675746;
+  color: #F2E9E1;
 }
 
 .portfolio-bio{
     line-height: 25px;
+}
+
+hr {
+  display: block;
+  max-width: 25%;
+  border-bottom: 4px solid #78122F;
+  padding-bottom: 20px;
 }
