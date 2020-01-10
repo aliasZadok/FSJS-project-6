@@ -2,43 +2,7 @@
   "projects": [
     {
       "id": 0,
-      "project_name": "Random Quote Generator",
-      "description": "An app that displays random famous quotes each time a button is clicked",
-      "technologies": ["HTML", "CSS", "JavaScript"],
-      "live_link": "https://aliaszadok.github.io/random_quote/",
-      "github_link": "https://github.com/aliasZadok/FSJS-project-1",
-      "image_urls": ["/static/images/random_quote_main_screenshot.jpg",
-                     "/static/images/random_quote_screenshot_1.jpg",
-                     "/static/images/random_quote_screenshot_2.jpg",
-                     "/static/images/random_quote_screenshot_3.jpg"]
-    },
-    {
-      "id": 1,
-      "project_name": "List pagination and Filtering",
-      "description": "A page that contains a list of 54 student names, photos and email addresses.",
-      "technologies": ["HTML", "CSS", "JavaScript"],
-      "live_link": "https://aliaszadok.github.io/list_pagination/",
-      "github_link": "https://github.com/aliasZadok/FSJS-project-2",
-      "image_urls": ["/static/images/list_pagination_main_screenshot.jpg",
-                     "/static/images/list_pagination_screenshot_1.jpg",
-                     "/static/images/list_pagination_screenshot_2.jpg",
-                     "/static/images/list_pagination_screenshot_3.jpg"]
-    },
-    {
-      "id": 2,
-      "project_name": "Interactive Form",
-      "description": "An interactive registration form for a fictional conference called \"FullStack Conf.\"",
-      "technologies": ["HTML", "CSS", "JavaScript", "JQuery"],
-      "live_link": "https://aliaszadok.github.io/form/",
-      "github_link": "https://github.com/aliasZadok/FSJS-project-3",
-      "image_urls": ["/static/images/form_main_screenshot.jpg",
-                     "/static/images/form_screenshot_1.jpg",
-                     "/static/images/form_screenshot_2.jpg",
-                     "/static/images/form_screenshot_3.jpg"]
-    },
-    {
-      "id": 3,
-      "project_name": "Phrase Hunter",
+      "project_name": "Phrase Hunter Game",
       "description": "A browser-based, word guessing game: \"Phrase Hunter.\" Try to guess the phrase, by clicking letters on an onscreen keyboard.",
       "technologies": ["HTML", "CSS", "JavaScript"],
       "live_link": "https://aliaszadok.github.io/phrase_hunter/",
@@ -49,16 +13,64 @@
                      "/static/images/phrase_hunter_screenshot_3.jpg"]
     },
     {
+      "id": 1,
+      "project_name": "Four in a row game",
+      "description": "A two-player connection game in which the players first choose a color and then take turns dropping one colored disc from the top into a seven-column, six-row vertically suspended grid.",
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "live_link": "https://aliaszadok.github.io/four_in_a_row",
+      "github_link": "https://github.com/aliasZadok/aliaszadok.github.io/tree/master/four_in_a_row",
+      "image_urls": ["/static/images/four_in_a_row_screenshot_1.jpg",
+                     "/static/images/four_in_a_row_screenshot_2.jpg",
+                     "/static/images/four_in_a_row_screenshot_3.jpg",
+                     "/static/images/four_in_a_row_screenshot_4.jpg"]
+    },
+    {
+      "id": 2,
+      "project_name": "React Gallery",
+      "description": "A gallery app that uses Flickr API. Made with React.",
+      "technologies": ["HTML", "CSS", "JavaScript", "React", "Netlify"],
+      "live_link": "https://react-gallery-aliaszadok.netlify.com/",
+      "github_link": "https://github.com/aliasZadok/react-gallery",
+      "image_urls": ["/static/images/react_gallery_screenshot_1.jpg",
+                     "/static/images/react_gallery_screenshot_2.jpg",
+                     "/static/images/react_gallery_screenshot_3.jpg",
+                     "/static/images/react_gallery_screenshot_4.jpg"]
+    },
+    {
+      "id": 3,
+      "project_name": "SQL Library Manager",
+      "description": "A web application that lists books from a library database and can perform basic CRUD operations. It can even search and page through records of the library.",
+      "technologies": ["HTML", "CSS", "JavaScript", "SQL", "Sequelize", "Express", "Heroku"],
+      "live_link": "https://sleepy-hamlet-45948.herokuapp.com/",
+      "github_link": "https://github.com/aliasZadok/sql_library_manager",
+      "image_urls": ["/static/images/library_manager_screenshot_1.jpg",
+                     "/static/images/library_manager_screenshot_2.jpg",
+                     "/static/images/library_manager_screenshot_3.jpg",
+                     "/static/images/library_manager_screenshot_4.jpg"]
+    },
+    {
       "id": 4,
-      "project_name": "Public API Requests",
-      "description": "An app for a fictional company called Awesome Startup, a distributed company with remote employees working all over the world. They need a smart way for employees to share contact information with each other.",
-      "technologies": ["HTML", "CSS", "JavaScript", "JQuery","JSON"],
-      "live_link": "https://aliaszadok.github.io/api_request/",
-      "github_link": "https://github.com/aliasZadok/FSJS-project-5",
-      "image_urls": ["/static/images/api_request_main_screenshot.jpg",
-                     "/static/images/api_request_screenshot_1.jpg",
-                     "/static/images/api_request_screenshot_2.jpg",
-                     "/static/images/api_request_screenshot_3.jpg"]
+      "project_name": "Full Stack App with React and a REST API ",
+      "description": "A full stack application that provides a way for users to administer a school database containing information about courses: users can interact with the database by retrieving a list of courses, viewing detail for a specific course, as well as creating, updating and deleting courses in the database.",
+      "technologies": ["HTML", "CSS", "JavaScript", "SQL", "Sequelize", "React", "Express", "RESTful API"],
+      "live_link": "https://cranky-heisenberg-cbb62a.netlify.com/",
+      "github_link": "https://github.com/aliasZadok/react-rest_api-app",
+      "image_urls": ["/static/images/courses_screenshot_1.jpg",
+                     "/static/images/courses_screenshot_2.jpg",
+                     "/static/images/courses_screenshot_3.jpg",
+                     "/static/images/courses_screenshot_4.jpg"]
+    },
+    {
+      "id": 5,
+      "project_name": "Songs of Zion - Music & Lyrics",
+      "description": "An Android application which uses the SoundCloud API to stream Hindi Gospel music.",
+      "technologies": ["Java", "XML", "Android", "SoundCloud"],
+      "live_link": "https://play.google.com/store/apps/details?id=com.judah.siyonkegeet",
+      "github_link": "https://github.com/aliasZadok/SiyonKeGeet",
+      "image_urls": ["/static/images/songs_of_zion_screenshot_1.jpg",
+                     "/static/images/songs_of_zion_screenshot_2.jpg",
+                     "/static/images/songs_of_zion_screenshot_3.jpg",
+                     "/static/images/songs_of_zion_screenshot_4.jpg"]
     }
   ]
 }
